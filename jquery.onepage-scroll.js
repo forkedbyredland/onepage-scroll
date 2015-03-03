@@ -212,6 +212,39 @@
       }
     }
 
+    $.fn.destroy_onepage_scroll = function() {
+      $(document).unbind("mousewheel DOMMouseScroll MozMousePixelScroll");
+
+      // TODO: Only unbind event listeners added by onepage-scroll.
+      el.unbind("swipeDown swipeUp touchstart touchmove");
+      $("ul.onepage-pagination").remove();
+
+      // Remove classes added by onepage-scroll
+      el.removeClass("onepage-wrapper");
+      $(settings.sectionContainer).removeClass('active');
+      $(settings.sectionContainer).removeAttr('data-index');
+
+      // Reset container's styles
+      el.css({
+        "position": "",
+        "-webkit-transform": "",
+        "-webkit-transition": "",
+        "-moz-transform": "",
+        "-moz-transition": "",
+        "-ms-transform": "",
+        "-ms-transition": "",
+        "transform": "",
+        "transition": ""
+      });
+
+      // Reset section elements' styles
+      $(settings.sectionContainer).css({
+        "position": "",
+        "top": "",
+        "left": ""
+      });
+    };
+
     function responsive() {
       //start modification
       var valForTest = false;
