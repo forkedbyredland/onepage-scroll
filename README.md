@@ -1,4 +1,9 @@
 #One Page Scroll 1.3.1 by Pete R.
+
+**This is a modified version of One Page Scroll. It adds a
+`destroy_onepage_scroll` method for uninitializing one page scroll.**
+Usage: `$('.main').destroy_onepage_scroll();`
+
 Create an Apple-like one page scroll website (iPhone 5S website) with One Page Scroll plugin
 Created by [Pete R.](http://www.thepetedesign.com), Founder of [BucketListly](http://www.bucketlistly.com)
 
