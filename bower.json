@@ -7,6 +7,8 @@
     "onepage-scroll.css"
   ],
   "ignore": [
+    "Gruntfile.js",
+    "package.json",
     "test",
     "Demo",
     "README.md"

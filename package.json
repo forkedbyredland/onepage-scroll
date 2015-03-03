@@ -1,0 +1,24 @@
+{
+  "name": "onepage-scroll",
+  "version": "1.0.0",
+  "description": "Create an Apple-like one page scroll website (iPhone 5S website) with One Page Scroll plugin Created by [Pete R.](http://www.thepetedesign.com), Founder of [BucketListly](http://www.bucketlistly.com)",
+  "main": "jquery.onepage-scroll.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forkedbyredland/onepage-scroll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forkedbyredland/onepage-scroll/issues"
+  },
+  "homepage": "https://github.com/forkedbyredland/onepage-scroll",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.8.0",
+    "load-grunt-tasks": "^3.1.0"
+  }
+}
