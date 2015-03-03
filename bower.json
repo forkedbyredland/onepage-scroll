@@ -7,6 +7,7 @@
     "onepage-scroll.css"
   ],
   "ignore": [
+    "test",
     "Demo",
     "README.md"
   ],
